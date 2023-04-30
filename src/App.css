@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100px;
+}
+
+.shopping-card {
+  justify-content:space-around;
+  background-color: rgb(2, 40, 77);
+  color: white; 
+  padding: 10px;
+}
+.flex button:hover{
+  background-color: aliceblue;
+  color:rgb(2, 40, 77);
+}
+.flex button{
+  font-size: 25px;
+  padding: 5px;
+  background-color: rgb(2, 40, 77);
+  color: white;
+  border-radius: 8px;
+}
+
+.product-item:hover{
+  background-color: rgb(26, 103, 152);
+}
+.product-item {
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(185, 214, 241);
+  border: 1px solid black;
+  box-shadow: 4px 2px 4px  rgb(197, 186, 171);
+ 
+}
+
+.product-item button{
+  color: blue;
+  background-color: black;
+  border-radius: 5px;
+  padding: 7px;
+  color: white;
+}
+
+.cart{
+  font-weight: bold;
+}
